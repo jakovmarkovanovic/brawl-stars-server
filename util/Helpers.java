@@ -1,4 +1,4 @@
-package paulmodz.util;
+package daniillnull.util;
 
 import javax.xml.bind.DatatypeConverter;
 
