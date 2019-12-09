@@ -1,16 +1,16 @@
-package paulmodz.javabs.messages.client;
+package daniillnull.javabs.messages.client;
 
-import paulmodz.javabs.game.Alliance;
-import paulmodz.javabs.game.Player;
-import paulmodz.javabs.messages.MessageOutputStream;
-import paulmodz.javabs.messages.server.ChestData;
-import paulmodz.javabs.server.Session;
+import daniillnull.javabs.game.Alliance;
+import daniillnull.javabs.game.Player;
+import daniillnull.javabs.messages.MessageOutputStream;
+import daniillnull.javabs.messages.server.ChestData;
+import daniillnull.javabs.server.Session;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.Arrays;
 
-public class ExecuteCmd extends paulmodz.javabs.messages.Packet
+public class ExecuteCmd extends daniillnull.javabs.messages.Packet
 {
   public ExecuteCmd() {}
   

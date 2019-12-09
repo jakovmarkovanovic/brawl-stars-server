@@ -1,13 +1,13 @@
-package paulmodz.javabs.messages;
+package daniillnull.javabs.messages;
 
 import java.io.DataOutputStream;
 
 public class MessageOutputStream
 {
   public DataOutputStream is;
-  public paulmodz.javabs.encryption2v.Crypt cr;
+  public daniillnull.javabs.encryption2v.Crypt cr;
   
-  public MessageOutputStream(java.io.OutputStream is, paulmodz.javabs.encryption2v.Crypt cr) {
+  public MessageOutputStream(java.io.OutputStream is, daniillnull.javabs.encryption2v.Crypt cr) {
     this.is = new DataOutputStream(is);
     this.cr = cr;
   }

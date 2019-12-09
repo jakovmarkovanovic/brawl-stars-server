@@ -1,4 +1,4 @@
-package paulmodz.javabs.messages.client;
+package daniillnull.javabs.messages.client;
 
 import daniillnull.javacr.messages.Packet;
 import java.math.BigInteger;

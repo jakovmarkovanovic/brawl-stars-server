@@ -1,4 +1,4 @@
-package paulmodz.javabs.game;
+package daniillnull.javabs.game;
 
 import java.io.DataOutput;
 

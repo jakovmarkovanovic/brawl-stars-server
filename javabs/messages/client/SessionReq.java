@@ -1,8 +1,8 @@
-package paulmodz.javabs.messages.client;
+package daniillnull.javabs.messages.client;
 
 import java.io.IOException;
 
-public class SessionReq extends paulmodz.javabs.messages.Packet
+public class SessionReq extends daniillnull.javabs.messages.Packet
 {
   public String rhash;
   

@@ -1,8 +1,8 @@
-package paulmodz.javabs.messages.client;
+package daniillnull.javabs.messages.client;
 
 import java.io.ByteArrayInputStream;
 
-public class SetName extends paulmodz.javabs.messages.Packet
+public class SetName extends daniillnull.javabs.messages.Packet
 {
   public String name;
   

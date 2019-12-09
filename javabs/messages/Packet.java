@@ -1,4 +1,4 @@
-package paulmodz.javabs.messages;
+package daniillnull.javabs.messages;
 
 import java.io.DataInputStream;
 import java.io.InputStream;

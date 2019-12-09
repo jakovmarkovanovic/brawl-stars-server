@@ -1,6 +1,6 @@
-package paulmodz.javabs.messages.client;
+package daniillnull.javabs.messages.client;
 
-import paulmodz.javabs.messages.Packet;
+import daniillnull.javabs.messages.Packet;
 import java.io.IOException;
 
 public class StartMission

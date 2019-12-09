@@ -1,6 +1,6 @@
-package paulmodz.javabs.encryption2v;
+package daniillnull.javabs.encryption2v;
 
-import paulmodz.javabs.Sodium;
+import daniillnull.javabs.Sodium;
 
 public class Crypt
 {

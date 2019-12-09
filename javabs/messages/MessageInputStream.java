@@ -1,6 +1,6 @@
-package paulmodz.javabs.messages;
+package daniillnull.javabs.messages;
 
-import paulmodz.javabs.encryption2v.Crypt;
+import daniillnull.javabs.encryption2v.Crypt;
 import java.io.DataInputStream;
 import java.io.PrintStream;
 
@@ -30,68 +30,68 @@ public class MessageInputStream
     
     switch (type) {
     case 10100: 
-      p = new paulmodz.javabs.messages.client.SessionReq();
+      p = new daniillnull.javabs.messages.client.SessionReq();
       break;
     
     case 10101: 
-      p = new paulmodz.javabs.messages.client.Login();
+      p = new daniillnull.javabs.messages.client.Login();
       break;
     
     case 10108: 
-      p = new paulmodz.javabs.messages.client.KeepAlive();
+      p = new daniillnull.javabs.messages.client.KeepAlive();
       break;
     
     case 14102: 
-      p = new paulmodz.javabs.messages.client.ExecuteCmd();
+      p = new daniillnull.javabs.messages.client.ExecuteCmd();
       break;
     
     case 14104: 
-      p = new paulmodz.javabs.messages.client.StartMission();
+      p = new daniillnull.javabs.messages.client.StartMission();
       break;
     
     case 10212: 
     case 14600: 
-      p = new paulmodz.javabs.messages.client.SetName();
+      p = new daniillnull.javabs.messages.client.SetName();
       break;
     
     case 14101: 
-      p = new paulmodz.javabs.messages.client.GetHomeData();
+      p = new daniillnull.javabs.messages.client.GetHomeData();
       break;
     
     case 14113: 
-      p = new paulmodz.javabs.messages.client.GetProfileData();
+      p = new daniillnull.javabs.messages.client.GetProfileData();
       break;
     
     case 14301: 
-      p = new paulmodz.javabs.messages.client.CreateAlliance();
+      p = new daniillnull.javabs.messages.client.CreateAlliance();
       break;
     
     case 14316: 
-      p = new paulmodz.javabs.messages.client.ChangeAlliance();
+      p = new daniillnull.javabs.messages.client.ChangeAlliance();
       break;
     
     case 14302: 
-      p = new paulmodz.javabs.messages.client.GetAllianceData();
+      p = new daniillnull.javabs.messages.client.GetAllianceData();
       break;
     
     case 14308: 
-      p = new paulmodz.javabs.messages.client.LeaveAlliance();
+      p = new daniillnull.javabs.messages.client.LeaveAlliance();
       break;
     
     case 14305: 
-      p = new paulmodz.javabs.messages.client.JoinAlliance();
+      p = new daniillnull.javabs.messages.client.JoinAlliance();
       break;
     
     case 14303: 
-      p = new paulmodz.javabs.messages.client.GetJoinableAlliances();
+      p = new daniillnull.javabs.messages.client.GetJoinableAlliances();
       break;
     
     case 14315: 
-      p = new paulmodz.javabs.messages.client.SendAllianceMessage();
+      p = new daniillnull.javabs.messages.client.SendAllianceMessage();
       break;
     
     case 14306: 
-      p = new paulmodz.javabs.messages.client.PromoteAllianceMember();
+      p = new daniillnull.javabs.messages.client.PromoteAllianceMember();
       break;
     
     case 10107: 
