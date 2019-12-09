@@ -6,8 +6,8 @@ public class Crypt
 {
   public Crypt() {}
   
-  public static final byte[] sk = daniillnull.util.Helpers.parseHexBinary("1891d401fadb51d25d3a9174d472a9f691a45b974285d47729c45c6538070d85");
-  public static final byte[] pk = daniillnull.util.Helpers.parseHexBinary("72f1a4a4c48e44da0c42310f800e96624e6dc6a641a9d41c3b5039d8dfadc27e");
+  public static final byte[] sk = daniillnull.util.Helpers.parseHexBinary("1891d401fadb51d25d3a9174d472a9f691a45b974285d47729c45c6538070d85");//brawl stars key?
+  public static final byte[] pk = daniillnull.util.Helpers.parseHexBinary("72f1a4a4c48e44da0c42310f800e96624e6dc6a641a9d41c3b5039d8dfadc27e");//brawl stars key?
   
   public byte[] clientKey = null;
   public byte[] sharedKey = null;

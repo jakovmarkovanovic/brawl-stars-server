@@ -1,5 +1,5 @@
 package daniillnull.javacr.server;
-
+//cant bulding or run sorce hmmm not errors but not run or build im fix one error
 import daniillnull.javacr.encryption2v.Crypt;
 import daniillnull.javacr.game.Alliance;
 import daniillnull.javacr.game.Player;
@@ -50,7 +50,7 @@ public class Main
       Session z = new Session();
       curr = new Thread(z);
       cr = new Crypt();
-      is = new MessageInputStream(s.getInputStream(), cr);
+      is = new MessageInputStream(s.getInputStream(), cr);//mesage cr? clash royale?
       os = new daniillnull.javacr.messages.MessageOutputStream(s.getOutputStream(), cr);
       curr.start();
       
