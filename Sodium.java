@@ -1,4 +1,4 @@
-package paulmodz;
+package daniillnull;
 
 public class Sodium {
   public static Sodium sodium = new Sodium();
