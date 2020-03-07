@@ -18,4 +18,4 @@ public class Sodium {
   public native byte[] createBox(byte[] paramArrayOfByte1, byte[] paramArrayOfByte2, byte[] paramArrayOfByte3);
   
   public native void incr2x(byte[] paramArrayOfByte);
-}
+}//this main
